@@ -1,0 +1,10 @@
+@tailwind components;
+
+@layer components{
+	.heading{
+		@apply text-4xl text-center mt-2
+	}
+	.sub-heading{
+		@apply text-xl text-center mt-0;
+	}
+}
